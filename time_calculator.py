@@ -32,7 +32,7 @@ def add_time(start, duration, day=""):
       new_hour=new_hour%24#12
       
       
-  days=days+extra_days#20
+  days=days+extra_days#
   final_time.append(new_hour)#
   final_time.append(new_minute)#
   dayss= str(extra_days) #string for number of days
